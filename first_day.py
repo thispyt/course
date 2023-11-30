@@ -27,3 +27,49 @@ print(str(days))
 print(type(days))
 print(type(floa))
 print(type(my_name))
+#exercice print 
+print("Day 1 - Python Print Function")
+print("The function is declared like this:")
+print("print('what to print')")
+#return ligne with use \n
+print("hello\nwelcome\neveryone")
+#conctantion , String manipulation 
+#Vscode use Code intelligence for detecte error while write code
+print("hello"+" world")# Space before print indintation error 
+# one qoates not exist return syntaxe error EOL \ 
+# debuging error ligne after ligne (block)?
+# debug :or look evenmets in the code step by step with use  app thonny
+
+#asks your name and print hello with your name  
+# first in the console input after print with entree
+print("hello "+ input("what's your name"))
+#save the data and print or affect data in variable or deplace in case in memory
+name = input("what's your name \n")
+print(f"hello {name}")
+#respect order and print after lenght 
+name='jack';print(f"hello {name}")
+print(len(name))
+
+#Don't change the code below
+a = input("a:")
+b = input("b:")
+#don't change the code above
+############################
+#Write your code below this line
+#change with help another variable
+moyen=a
+a=b
+b=moyen
+#write your code above this line
+#Don't change the code below
+print("a = " + a)
+print("b = " + b)
+#don't change the code above
+
+#Variable Naming error space and begin with number ..
+#project easy band generator
+print("Welcome to the band Name Generator.")
+city_grew=input("What's the name of the city you grew up in?\n")
+pets_name=input("What's your pet's name?\n")
+print(f"Your band name could be {city_grew} {pets_name}")
+# above use f-string and or print("Your band name could be"+city_grew+" "+pets_name)
