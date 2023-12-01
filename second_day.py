@@ -45,3 +45,8 @@ first_digit=two_digit_number[0]
 second_digit=two_digit_number[1]
 result=int(first_digit)+int(second_digit)
 print(result)
+#Mathematical operations in python like PEMDAS(LR?)
+#P as parallele (), E as Exponnent ** , M multiplication number * number
+#D divition / , A Addition, S substracting 
+print(3*3+3/3-3)#not P and E display 3*3=9 , 3/3=1.0 ,9+1=10.0 ,10.0 -3 =7.0
+print(3*(3+3)/3-3)# P (A)3+3=6,E not exist,M 3*6=18, D 18/3=6.0 ,S 6.0 -3=3.0
