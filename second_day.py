@@ -8,3 +8,5 @@ print(123+456)#integer addition
 print(3.35)
 print(True)
 print(False)
+#len function for string not integer for below display 5
+print(len("hello"))
