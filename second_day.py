@@ -26,3 +26,22 @@ a=float(123)#conversing int to float like 123.0
 print(type(a))#determine type of variable
 print(70+a)#display addition resylt float
 print(str(70)+str(100))#just concating two string
+#exercise
+# Write a program that adds in a 2 digit number. e.g.
+#the input was 35,then the output should be 3+5=8
+#mY practice 
+digit=input("write 2 digit number")
+#by default type of input is string you should be parse or conserv 3la hsab haja 
+# print(type(digit)
+add=int(digit[0]) + int(digit[1])
+print(add)
+# print("result is "+str(add))# ERROR AVIODANCE
+#other practice
+# Don't change the code below
+two_digit_number=input("type a two digit number")
+#don't change the code above
+#write your code below this line
+first_digit=two_digit_number[0]
+second_digit=two_digit_number[1]
+result=int(first_digit)+int(second_digit)
+print(result)
