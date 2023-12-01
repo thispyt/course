@@ -50,3 +50,28 @@ print(result)
 #D divition / , A Addition, S substracting 
 print(3*3+3/3-3)#not P and E display 3*3=9 , 3/3=1.0 ,9+1=10.0 ,10.0 -3 =7.0
 print(3*(3+3)/3-3)# P (A)3+3=6,E not exist,M 3*6=18, D 18/3=6.0 ,S 6.0 -3=3.0
+
+#Exercice BMI(body mass index) Calculator 
+# Don't change the code below
+height = input("entre your height in m: \n")
+weight = input("entre your weight in kg: \n")
+#don't change the code above
+#write your code below this line
+body_mass_index=int(weight)/(float(height)*float(height))
+#or
+bmi=int(weight)/float(height)**2
+##not any operation mathematication  in function conversion 
+##not without () .but possible assignm in variable
+precise=int(body_mass_index)
+bmi_as_int=int(bmi)
+print(precise)
+#or
+height_as_conv=float(height)
+weight_as_conv=int(weight)
+#using E exponent
+bmii=weight_as_conv/height_as_conv**2
+print(int(bmii))
+# multiple
+bmii=weight_as_conv/(height_as_conv*height_as_conv)
+print(int(bmii))
+
