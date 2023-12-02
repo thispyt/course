@@ -84,3 +84,17 @@ score=0
 heighty=1.8
 isWinning=True
 print(f"your score is {score}, your height is {heighty}, you are winning is {isWinning}")
+# Exercise a program using maths and f-string 
+# that tells us how many days,weeks,months
+# we have left if we life until 90 years old
+# Don't change the code below
+age = input("what's your current age ?")
+#don't change the code above
+#write your code below this line
+age_as_int=int(age)
+years_remaining=90-age_as_int
+days=years_remaining*365
+weeks=years_remaining*52
+months=years_remaining*12
+message=f"You have {days} days, {weeks} weeks, and {months} months left ."
+print(message)
