@@ -74,4 +74,13 @@ print(int(bmii))
 # multiple
 bmii=weight_as_conv/(height_as_conv*height_as_conv)
 print(int(bmii))
-
+#Number Manipulation And F-Strings
+print(8/3)#2.6666666666666665
+print(int(8/3))#just part int 2
+print(round(8/3))#major
+print(round(8/3,3))#three number after . and major math ,more // result will be int
+#f-strings solve the parse(conserve), 
+score=0
+heighty=1.8
+isWinning=True
+print(f"your score is {score}, your height is {heighty}, you are winning is {isWinning}")
