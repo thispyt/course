@@ -37,3 +37,37 @@ else :
 #Modulo Operation % > 7%2 -> 7=2+2+2+1 result is 1,
 # 7%3= '3*3'+1=1 
 #6%2=3*'2'+0=0 , 14%4 =3*4(4->2*2)+2=2 ,5/2= 2*2+1=1
+########
+#Nested if statements and else if statements
+#if condition:
+#   if anothercondion :
+#       do this
+#   else:
+#       do this
+#else
+#   do this
+print("Welcome to the rollercoaster!")
+height=int(input("what's your height in cm ?"))
+if height>120:
+    print("can ride the rollercoaster, your tall enough ")
+    age=int(input("what's your age"))
+    if age>18:
+        print("you should be pay : $12")
+    else:
+        print("you should be pay : $7")
+else:
+    print("Sorry, you have to grow taller before you ride the rollercoaster")
+print("Welcome to the rollercoaster!")
+height=int(input("what's your height in cm ?"))
+if height>120:
+    print("can ride the rollercoaster, your tall enough ")
+    age =int(input("write your age"))
+    if age<12:
+        print("please pay : $5")
+    elif age>=12 | age<=18:#or age<=18 just
+        print("please pay : $7")
+    else:
+        print("please pay : $12")
+        
+else:
+    print("Sorry, you have to grow taller before you ride the rollercoaster")
