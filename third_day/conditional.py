@@ -34,5 +34,6 @@ if number%2==0:
     print(f"number {number} is even")
 else :
     print(f"number {number} is odd")
-#Modulo Operation % > 7%2 -> 7=2+2+2+1 result is 1 
+#Modulo Operation % > 7%2 -> 7=2+2+2+1 result is 1,
+# 7%3= '3*3'+1=1 
 #6%2=3*'2'+0=0 , 14%4 =3*4(4->2*2)+2=2 ,5/2= 2*2+1=1
